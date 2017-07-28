@@ -1,0 +1,186 @@
+.navBarContainer {
+    border-bottom: .5px solid;
+    size: 50px;
+    border-color: black;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    list-style-type: none;
+    position: relative;
+}
+
+.logo {
+    height: 25px;
+    width: 100px
+    padding: 10px;
+    margin: 15px 20px;
+}
+
+li {
+    margin: 20px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.bgImgContainer {
+    width: 100%;
+    max-height: 900px;
+    max-width: 100%;
+    min-height: 600px;
+    min-width: 767px;
+    position: absolute;
+    overflow: hidden;
+    background: rgba(66, 143, 187, 1);
+}
+
+.bgImgContainer img {
+    width: 100%;
+    opacity: .3;
+}
+
+#overlay {
+    width: 100%;
+    height: 1000px;
+    background: rgba(66, 143, 187, .8);
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+#pricing {
+    text-align: left;
+    padding: 0% 25%;
+}
+
+#secondHeader {
+    margin-top: 350px;
+}
+
+.lead {
+    font-size: 1.4375em;
+}
+
+a {
+  color: white;
+
+}
+
+.bttn:hover {
+    color: white;
+}
+
+.text {
+    font-size: 24px;
+    color: white;
+}
+
+p {
+    font-size: 24px;
+}
+
+.buttonContainer {
+    display: flex;
+    height: 300px;
+    padding-top: 100px;
+    justify-content: center;
+
+}
+
+.sqButton {
+    height: 60px;
+    width: 180px;
+    border: 1px solid white;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+#whiteFill {
+    background-color: white;
+    color: rgba(66, 143, 187, 1);
+    margin-left: 20px
+}
+
+.sectionTwoContainer {
+    display: flex;
+    width: 100%;
+    padding-top: 6.5em;
+    padding-bottom: 8.125em;
+}
+
+.secondDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.sides {
+    width: 75%;
+    height: auto;
+}
+
+.secondDiv {
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding-top; 10%;
+    
+}
+
+h1  {
+    line-height: 100px;
+}
+
+.mainText {
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    color: #767676;
+    text-align: left;
+}
+
+.textBoxContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.textBoxRight {
+    margin-left: 5%;
+}
+
+.textBoxleft {
+    margin-right: 5%;
+}
+
+.lambdaSchoolCourses {
+    background-color: #f4f4f4;
+    padding-top: 60px;
+    height: 800px;
+}
+
+#courseBoxLeft{
+    margin-right: 15px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+#courseBoxRight{
+    margin-left: 15px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+.textBoxInner {
+    margin: 50px;
+}
